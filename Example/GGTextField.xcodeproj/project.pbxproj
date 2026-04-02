@@ -23,6 +23,14 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		C6A70C2D2F7E0366001C4FF9 /* GGTextFieldBasicDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A70C2C2F7E0366001C4FF9 /* GGTextFieldBasicDemoViewController.m */; };
+		C6A70C302F7E03A7001C4FF9 /* GGTextFieldPhoneDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A70C2F2F7E03A7001C4FF9 /* GGTextFieldPhoneDemoViewController.m */; };
+		C6A70C332F7E03CF001C4FF9 /* GGTextFieldIDCardDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A70C322F7E03CF001C4FF9 /* GGTextFieldIDCardDemoViewController.m */; };
+		C6A70C362F7E03F0001C4FF9 /* GGTextFieldPasswordDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A70C352F7E03F0001C4FF9 /* GGTextFieldPasswordDemoViewController.m */; };
+		C6A70C392F7E0410001C4FF9 /* GGTextFieldBankCardDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A70C382F7E0410001C4FF9 /* GGTextFieldBankCardDemoViewController.m */; };
+		C6A70C3C2F7E0432001C4FF9 /* GGTextFieldMoneyDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A70C3B2F7E0432001C4FF9 /* GGTextFieldMoneyDemoViewController.m */; };
+		C6A70C3F2F7E0465001C4FF9 /* GGTextFieldReadOnlyDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A70C3E2F7E0465001C4FF9 /* GGTextFieldReadOnlyDemoViewController.m */; };
+		C6A70C422F7E0483001C4FF9 /* GGTextFieldCustomStyleDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A70C412F7E0483001C4FF9 /* GGTextFieldCustomStyleDemoViewController.m */; };
 		C923EE14DD01BD5A27591D4B /* Pods_GGTextField_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08570112AB05EB25C8997084 /* Pods_GGTextField_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,9 +46,9 @@
 
 /* Begin PBXFileReference section */
 		08570112AB05EB25C8997084 /* Pods_GGTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		17AA35259004E06E5E79723D /* GGTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GGTextField.podspec; path = ../GGTextField.podspec; sourceTree = "<group>"; };
+		17AA35259004E06E5E79723D /* GGTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GGTextField.podspec; path = ../GGTextField.podspec; sourceTree = "<group>"; };
 		25308FBEF1156DF409D97C91 /* Pods-GGTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGTextField_Example.debug.xcconfig"; path = "Target Support Files/Pods-GGTextField_Example/Pods-GGTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		48094F7361EB90E6ADF1E49B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		48094F7361EB90E6ADF1E49B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GGTextField_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGTextField_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,7 +73,23 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98ACACF3971761EEBB481A7C /* Pods-GGTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGTextField_Tests.release.xcconfig"; path = "Target Support Files/Pods-GGTextField_Tests/Pods-GGTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		99445C9A80EFF7607F56B45D /* Pods-GGTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGTextField_Example.release.xcconfig"; path = "Target Support Files/Pods-GGTextField_Example/Pods-GGTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D4D6C46CEAA79F34CF7F5589 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C6A70C2B2F7E0366001C4FF9 /* GGTextFieldBasicDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGTextFieldBasicDemoViewController.h; sourceTree = "<group>"; };
+		C6A70C2C2F7E0366001C4FF9 /* GGTextFieldBasicDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGTextFieldBasicDemoViewController.m; sourceTree = "<group>"; };
+		C6A70C2E2F7E03A7001C4FF9 /* GGTextFieldPhoneDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGTextFieldPhoneDemoViewController.h; sourceTree = "<group>"; };
+		C6A70C2F2F7E03A7001C4FF9 /* GGTextFieldPhoneDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGTextFieldPhoneDemoViewController.m; sourceTree = "<group>"; };
+		C6A70C312F7E03CF001C4FF9 /* GGTextFieldIDCardDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGTextFieldIDCardDemoViewController.h; sourceTree = "<group>"; };
+		C6A70C322F7E03CF001C4FF9 /* GGTextFieldIDCardDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGTextFieldIDCardDemoViewController.m; sourceTree = "<group>"; };
+		C6A70C342F7E03F0001C4FF9 /* GGTextFieldPasswordDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGTextFieldPasswordDemoViewController.h; sourceTree = "<group>"; };
+		C6A70C352F7E03F0001C4FF9 /* GGTextFieldPasswordDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGTextFieldPasswordDemoViewController.m; sourceTree = "<group>"; };
+		C6A70C372F7E0410001C4FF9 /* GGTextFieldBankCardDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGTextFieldBankCardDemoViewController.h; sourceTree = "<group>"; };
+		C6A70C382F7E0410001C4FF9 /* GGTextFieldBankCardDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGTextFieldBankCardDemoViewController.m; sourceTree = "<group>"; };
+		C6A70C3A2F7E0432001C4FF9 /* GGTextFieldMoneyDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGTextFieldMoneyDemoViewController.h; sourceTree = "<group>"; };
+		C6A70C3B2F7E0432001C4FF9 /* GGTextFieldMoneyDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGTextFieldMoneyDemoViewController.m; sourceTree = "<group>"; };
+		C6A70C3D2F7E0465001C4FF9 /* GGTextFieldReadOnlyDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGTextFieldReadOnlyDemoViewController.h; sourceTree = "<group>"; };
+		C6A70C3E2F7E0465001C4FF9 /* GGTextFieldReadOnlyDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGTextFieldReadOnlyDemoViewController.m; sourceTree = "<group>"; };
+		C6A70C402F7E0483001C4FF9 /* GGTextFieldCustomStyleDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGTextFieldCustomStyleDemoViewController.h; sourceTree = "<group>"; };
+		C6A70C412F7E0483001C4FF9 /* GGTextFieldCustomStyleDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGTextFieldCustomStyleDemoViewController.m; sourceTree = "<group>"; };
+		D4D6C46CEAA79F34CF7F5589 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F227B87E14F183E7C9C69CC0 /* Pods_GGTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,7 +127,6 @@
 				67E5972615F250F5A86C6687 /* Pods-GGTextField_Tests.debug.xcconfig */,
 				98ACACF3971761EEBB481A7C /* Pods-GGTextField_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +167,7 @@
 		6003F593195388D20070C39A /* Example for GGTextField */ = {
 			isa = PBXGroup;
 			children = (
+				C6A70C2A2F7E035B001C4FF9 /* Demos */,
 				6003F59C195388D20070C39A /* GGAppDelegate.h */,
 				6003F59D195388D20070C39A /* GGAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -197,6 +221,29 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		C6A70C2A2F7E035B001C4FF9 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				C6A70C2B2F7E0366001C4FF9 /* GGTextFieldBasicDemoViewController.h */,
+				C6A70C2C2F7E0366001C4FF9 /* GGTextFieldBasicDemoViewController.m */,
+				C6A70C2E2F7E03A7001C4FF9 /* GGTextFieldPhoneDemoViewController.h */,
+				C6A70C2F2F7E03A7001C4FF9 /* GGTextFieldPhoneDemoViewController.m */,
+				C6A70C312F7E03CF001C4FF9 /* GGTextFieldIDCardDemoViewController.h */,
+				C6A70C322F7E03CF001C4FF9 /* GGTextFieldIDCardDemoViewController.m */,
+				C6A70C342F7E03F0001C4FF9 /* GGTextFieldPasswordDemoViewController.h */,
+				C6A70C352F7E03F0001C4FF9 /* GGTextFieldPasswordDemoViewController.m */,
+				C6A70C372F7E0410001C4FF9 /* GGTextFieldBankCardDemoViewController.h */,
+				C6A70C382F7E0410001C4FF9 /* GGTextFieldBankCardDemoViewController.m */,
+				C6A70C3A2F7E0432001C4FF9 /* GGTextFieldMoneyDemoViewController.h */,
+				C6A70C3B2F7E0432001C4FF9 /* GGTextFieldMoneyDemoViewController.m */,
+				C6A70C3D2F7E0465001C4FF9 /* GGTextFieldReadOnlyDemoViewController.h */,
+				C6A70C3E2F7E0465001C4FF9 /* GGTextFieldReadOnlyDemoViewController.m */,
+				C6A70C402F7E0483001C4FF9 /* GGTextFieldCustomStyleDemoViewController.h */,
+				C6A70C412F7E0483001C4FF9 /* GGTextFieldCustomStyleDemoViewController.m */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -248,6 +295,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = github6022244;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = T2F27PSC94;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +308,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -364,8 +415,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6A70C2D2F7E0366001C4FF9 /* GGTextFieldBasicDemoViewController.m in Sources */,
+				C6A70C3F2F7E0465001C4FF9 /* GGTextFieldReadOnlyDemoViewController.m in Sources */,
 				6003F59E195388D20070C39A /* GGAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* GGViewController.m in Sources */,
+				C6A70C392F7E0410001C4FF9 /* GGTextFieldBankCardDemoViewController.m in Sources */,
+				C6A70C302F7E03A7001C4FF9 /* GGTextFieldPhoneDemoViewController.m in Sources */,
+				C6A70C422F7E0483001C4FF9 /* GGTextFieldCustomStyleDemoViewController.m in Sources */,
+				C6A70C332F7E03CF001C4FF9 /* GGTextFieldIDCardDemoViewController.m in Sources */,
+				C6A70C362F7E03F0001C4FF9 /* GGTextFieldPasswordDemoViewController.m in Sources */,
+				C6A70C3C2F7E0432001C4FF9 /* GGTextFieldMoneyDemoViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,9 +553,11 @@
 			baseConfigurationReference = 25308FBEF1156DF409D97C91 /* Pods-GGTextField_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T2F27PSC94;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GGTextField/GGTextField-Prefix.pch";
 				INFOPLIST_FILE = "GGTextField/GGTextField-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,9 +571,11 @@
 			baseConfigurationReference = 99445C9A80EFF7607F56B45D /* Pods-GGTextField_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T2F27PSC94;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GGTextField/GGTextField-Prefix.pch";
 				INFOPLIST_FILE = "GGTextField/GGTextField-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

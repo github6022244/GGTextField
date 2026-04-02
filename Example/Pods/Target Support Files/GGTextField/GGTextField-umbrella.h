@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "GGTextField.h"
+#import "GGTextFieldDelegateProxy.h"
+#import "NSString+GGTextField.h"
 
 FOUNDATION_EXPORT double GGTextFieldVersionNumber;
 FOUNDATION_EXPORT const unsigned char GGTextFieldVersionString[];

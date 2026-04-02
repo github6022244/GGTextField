@@ -1,22 +1,22 @@
 {
   "name": "GGTextField",
   "version": "0.1.0",
-  "summary": "A short description of GGTextField.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/github6022244/GGTextField",
+  "summary": "封装UITextField",
+  "description": "封装UITextField支持限定不同输入类型及判断",
+  "homepage": "https://github.com/github6022244/GGTextField.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "github6022244": "1563084860@qq.com"
+    "Developer": "1563084860@qq.com"
   },
   "source": {
     "git": "https://github.com/github6022244/GGTextField.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
   "source_files": "GGTextField/Classes/**/*"
 }
