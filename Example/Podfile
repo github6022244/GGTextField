@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'GGTextField_Example' do
+  pod 'GGTextField', :path => '../'
+
+  target 'GGTextField_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
