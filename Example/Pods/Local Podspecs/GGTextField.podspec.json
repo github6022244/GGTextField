@@ -1,6 +1,6 @@
 {
   "name": "GGTextField",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "封装UITextField",
   "description": "封装UITextField支持限定不同输入类型及判断",
   "homepage": "https://github.com/github6022244/GGTextField.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/github6022244/GGTextField.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "13.0"

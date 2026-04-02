@@ -1,5 +1,5 @@
 PODS:
-  - GGTextField (0.1.0)
+  - GGTextField (1.0.0)
 
 DEPENDENCIES:
   - GGTextField (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GGTextField: 4af55e39c0dbd4e5efa55e68b9b362896ae56b00
+  GGTextField: b7f43fe82cc30c48f60164785467618b3f5ec162
 
 PODFILE CHECKSUM: 02b3ad525bd2f9261cf6f45677a88b1e98390b3e
 
