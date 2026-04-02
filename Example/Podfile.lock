@@ -1,0 +1,16 @@
+PODS:
+  - GGTextField (0.1.0)
+
+DEPENDENCIES:
+  - GGTextField (from `../`)
+
+EXTERNAL SOURCES:
+  GGTextField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GGTextField: 2e836a0450d83997e37db9a76a21507b8adb60e4
+
+PODFILE CHECKSUM: 8265a44df8a429ed5d1e045f46abaa4d2f2c1a69
+
+COCOAPODS: 1.16.2

@@ -1,0 +1,6 @@
+framework module GGTextField {
+  umbrella header "GGTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}
